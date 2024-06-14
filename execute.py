@@ -1,8 +1,7 @@
 import streamlit as st
 import pandas as pd
-from sklearn.preprocessing import LabelEncoder
 from joblib import load
-from lightgbm import LGBMRegressor, Booster
+from lightgbm import Booster
 from datetime import datetime
 
 
